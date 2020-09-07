@@ -16,9 +16,8 @@ global _main
 
 _main:
 swap:
-    mov eax, length5
-    inc eax
-
+    inc BYTE [length5]
+    
 mov eax, 1
 mov ebx, 0
 int 80h 
